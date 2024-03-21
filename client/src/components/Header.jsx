@@ -42,7 +42,7 @@ const Header = () => {
             dispatch(toggleTheme());
           }}
         >
-          {theme === "light" ? <FaMoon /> : <FaSun />}
+          {theme === "light" ? <FaSun /> : <FaMoon />}
         </Button>
         {currentUser ? (
           <Dropdown
